@@ -1,0 +1,20 @@
+//java main方法中使用非静态对象
+public class MyClass {
+    private String message;
+ 
+    public MyClass(String message) {
+        this.message = message;
+    }
+ 
+    public void printMessage() {
+        System.out.println(message);
+    }
+ 
+    public static void main(String[] args) {
+        // 创建MyClass的非静态实例
+        MyClass myClassInstance = new MyClass("Hello, World!");
+        
+        // 通过实例调用非静态方法
+        myClassInstance.printMessage();
+    }
+}
