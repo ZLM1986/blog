@@ -1,0 +1,25 @@
+oracle 分页查询
+从第一行开始取得，每次取70行
+第一页
+select * from busho_mst 
+offset　0 rows fetch next 70 rows only
+第二页
+select * from busho_mst 
+offset　70 rows fetch next 70 rows only
+第三页
+select * from busho_mst 
+offset　140 rows fetch next 70 rows only
+
+select * from busho_mst 
+offset　{offset} rows fetch next {pagesize} rows only
+---------------------------------------------------------------------------
+int offset=0
+int pagesize=70
+for(int i=0;i){
+    offset=i*pagesize
+    <SQL>
+        select * from busho_mst 
+        offset　{offset} rows fetch next {pagesize} rows only
+    <SQL/>
+}
+---------------------------------------------------------------------------
