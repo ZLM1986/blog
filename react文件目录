@@ -1,0 +1,20 @@
+tsconfig.json：配置TypeScript编译器选项的文件，指定项目的根文件和编译选项1。
+.editorconfig：定义代码风格的文件，确保不同编辑器和IDE之间的一致性2。
+.eslintignore：指定ESLint应忽略的文件和目录3。
+.eslintrc.js：配置ESLint规则的文件，定义代码质量和风格检查的规则4。
+.gitignore：指定Git应忽略的文件和目录，防止不必要的文件被提交到版本控制中5。
+.nvmrc：指定项目所需的Node.js版本，方便使用nvm进行版本管理6。
+.prettierignore：指定Prettier应忽略的文件和目录，防止这些文件被自动格式化7。
+.prettierrc.js：配置Prettier规则的文件，定义代码格式化的规则8。
+appspec.yml：用于AWS CodeDeploy的应用程序规范文件，定义部署过程中的步骤和钩子9。
+atum-proxy.conf：配置代理服务器的文件，通常用于设置API请求的代理10。
+buildspec.yml：用于AWS CodeBuild的构建规范文件，定义构建过程中的步骤11。
+jest.config.ts：配置Jest测试框架的文件，定义测试环境和选项12。
+jsconfig.json：配置JavaScript项目的文件，类似于tsconfig.json，但用于JavaScript项目13。
+package.json：定义项目的依赖、脚本和元数据的文件，是Node.js项目的核心文件14。
+package-lock.json：锁定项目依赖的确切版本，确保在不同环境中安装的一致性15。
+pnpm-lock.yaml：类似于package-lock.json，但用于pnpm包管理器16。
+README.md：项目的说明文档，通常包含项目的介绍、安装和使用说明17。
+README-zh.md：README.md的中文版本17。
+start_application.sh：启动应用程序的Shell脚本18。
+stop_application.sh：停止应用程序的Shell脚本18。
